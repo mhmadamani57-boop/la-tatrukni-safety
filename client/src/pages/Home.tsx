@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Bell, Bluetooth, Check, ChevronDown, CircleHelp, Heart, Menu, ShieldCheck, Smartphone, ThermometerSun, Waves, X, Zap } from "lucide-react";
 
-const productImage = "/manus-storage/nahni-image_bcd12472.png";
+const productImage = "./nahni-image.png";
 
 export default function Home() {
   const [temp, setTemp] = useState(32);
